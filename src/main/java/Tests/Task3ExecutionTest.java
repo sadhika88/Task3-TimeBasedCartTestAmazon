@@ -23,7 +23,7 @@ public class Task3ExecutionTest extends BrowserSetup{
 	}
 	@Test
 	public void ShoppingToCartPage() throws InterruptedException {
-		String[] products= {"waterbottle","shoe","keyboard","T-shirt"};
+		String[] products= {"waterbottle","shoe","bag","T-shirt"};
 		String userName="UserTest01";
 		if(!cartpage.isValidTimeWindow()) {
 			System.out.println("❌ Test is allowed only between 6 PM and 7 PM");

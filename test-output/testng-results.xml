@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-24T17:12:07 IST" name="Default suite" finished-at="2025-06-24T17:13:34 IST" duration-ms="87638">
+    <groups>
+    </groups>
+    <test started-at="2025-06-24T17:12:07 IST" name="Default test" finished-at="2025-06-24T17:13:34 IST" duration-ms="87638">
+      <class name="Tests.Task3ExecutionTest">
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:Tests.Task3ExecutionTest@437da279]" started-at="2025-06-24T17:12:07 IST" name="setupTest" finished-at="2025-06-24T17:12:10 IST" duration-ms="3519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="ShoppingToCartPage()[pri:0, instance:Tests.Task3ExecutionTest@437da279]" started-at="2025-06-24T17:12:10 IST" name="ShoppingToCartPage" finished-at="2025-06-24T17:13:34 IST" duration-ms="83564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingToCartPage -->
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:Tests.Task3ExecutionTest@437da279]" started-at="2025-06-24T17:13:34 IST" name="cleanup" finished-at="2025-06-24T17:13:34 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- Tests.Task3ExecutionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

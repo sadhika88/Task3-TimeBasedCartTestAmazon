@@ -69,8 +69,8 @@ public class ShoppingandAddtoCartPage {
 	}
 	public boolean isValidTimeWindow() {
 		java.time.LocalTime now=java.time.LocalTime.now();
-		java.time.LocalTime start=java.time.LocalTime.of(10,0);
-		java.time.LocalTime end=java.time.LocalTime.of(23,0);
+		java.time.LocalTime start=java.time.LocalTime.of(18,0);
+		java.time.LocalTime end=java.time.LocalTime.of(19,0);
 		return now.isAfter(start)&&now.isBefore(end);
 		
 	}
